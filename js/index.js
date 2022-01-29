@@ -8,3 +8,14 @@ let filteredList = arr2.filter(function(currentEl) {
 });
 
 alert(filteredList);
+//Не делала со стрелочной функцией, потому что мне так понятнее было.
+let arr3 = [
+    [1, 2],
+    [1, 2, 3],
+    [1, 2, 3, 4]
+];
+
+let ind = arr3.findIndex(function(elem) {
+    return elem.length > 3;
+});
+console.log(ind);
